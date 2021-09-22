@@ -1,0 +1,86 @@
+  
+    a {
+        color: rgb(55, 68, 82);
+        text-decoration: none; 
+    }
+
+    ul {
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+    .header {
+        float: right;
+        margin-right: 15px;
+    }
+    
+    .header .btn {
+        background-color: blue;
+        color: white;
+        padding: 8px;
+        border-radius: 3px;
+        }
+    .header ul li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .clearfix {
+        clear:both
+    }
+
+    .search-box {
+        width: 400px;
+        margin: 50px auto;
+        text-align: center; 
+    }
+
+    .search-box  .search-input {
+        width: 400px;
+        padding: 10px;
+        border-radius: 20px;
+        border: 1px  solid#ccc;
+    }
+
+    .search-box .btn-search {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: rgb(226, 222, 222);
+        border: 0;
+        margin-right: 5px;
+        border-radius: 3px;
+
+    }
+    .search-box .btn-search:hover{
+        border: 1px solid #ccc;
+        cursor: pointer;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0px;
+        width: 99%;
+        background-color: #f5f1f1;
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+
+    }
+    .footer ul li {
+        display: inline-block;
+        margin-left: 8px;
+        padding-bottom: 5px;
+
+    }
+    .right-footer {
+        float: right;
+    }
+
+    .left-footer {
+        float: left;
+    }
+    
+    .google-logo:hover{
+        transform: scale(1.2,1.5);
+    }
